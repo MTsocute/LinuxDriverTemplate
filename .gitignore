@@ -5,7 +5,7 @@
 *.mod.c
 *.symvers
 *.order
-.tmp_version/
+.tmp_versions/
 
 # VSCode Clang Configuration Files
 .vscode/.cache/

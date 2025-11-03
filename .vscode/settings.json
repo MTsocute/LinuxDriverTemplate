@@ -1,0 +1,11 @@
+{
+    // 给 clangd 配置的参数
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/.vscode",
+        "--background-index",
+        "--completion-style=detailed",
+        "--header-insertion=never",
+        "-log=info"
+    ],
+    "clangd.path": "/usr/bin/clangd",
+}

@@ -27,7 +27,8 @@ clean:
 		CROSS_COMPILE=$(CROSS_COMPILE) \
 		clean
 
-compdb:
+# compile compile_commands.json in .vscode/
+cmp:
 	intercept-build --append --cdb $(PWD)/.vscode/compile_commands.json \
 	$(MAKE) -C $(KDIR) \
 		M=$(PWD) \
