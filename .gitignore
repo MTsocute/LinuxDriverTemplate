@@ -6,6 +6,7 @@
 *.symvers
 *.order
 .tmp_versions/
+build/
 
 # VSCode Clang Configuration Files
 .vscode/.cache/
