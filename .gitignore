@@ -1,0 +1,12 @@
+# Ignore compiled object files by makefile
+*.cmd
+*.o
+*.ko
+*.mod.c
+*.symvers
+*.order
+.tmp_version/
+
+# VSCode Clang Configuration Files
+.vscode/.cache/
+.vscode/compile_commands.json

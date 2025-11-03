@@ -7,13 +7,13 @@ MODULE_DESCRIPTION("A simple character device");
 
 static int __init my_cdev_init(void)
 {
-    printk(KERN_INFO "Character device initialized\n");
+    printk(KERN_INFO "[cdve] Character device initialized\n");
     return 0;
 }
 
 static void __exit my_cdev_exit(void)
 {
-    printk(KERN_INFO "Character device exited\n");
+    printk(KERN_INFO "[cdve] Character device exited\n");
 }
 
 module_init(my_cdev_init);
